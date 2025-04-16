@@ -1,5 +1,5 @@
 {% set name = "PhaBOX" %}
-{% set version = "2.1.9" %}
+{% set version = "2.1.11" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KennthShang/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 19b75ddb51dcf3150806e00892fce7b875b915121edb0b30decbe503afcce87f
+  sha256: 06745db0f1b7f2b8ae56af8099f14f476b38b20a3a6460c8959ee2f8c9b70b13
 
 build:
   number: 0
