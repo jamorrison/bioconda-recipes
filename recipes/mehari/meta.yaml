@@ -1,5 +1,5 @@
-{% set version = "0.35.0" %}
-{% set sha256 = "43b449ca62fe21b7fce3c93213487eccac73296fe18e5178e632ad896a6b9abc" %}
+{% set version = "0.39.0" %}
+{% set sha256 = "dd0c396b75d77e93e4557bde1c1a3f0e22adc1aeb293b0387357366b6bdefcb5" %}
 
 package:
   name: mehari
@@ -12,10 +12,10 @@ source:
     - fix-release-profile.patch
 
 build:
-  skip: True  # [osx]
   number: 0
+  skip: True  # [osx]
   run_exports:
-    - {{ pin_subpackage("mehari", max_pin="x.x") }}
+    - {{ pin_subpackage('mehari', max_pin="x.x") }}
 
 requirements:
   build:

@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.9.2" %}
 
 package:
   name: oarfish
@@ -11,7 +11,7 @@ build:
     
 source:
   url: https://github.com/COMBINE-lab/oarfish/archive/v{{ version }}.tar.gz
-  sha256: 142a5eb9114c25eb4723ae3036c0e5862bdc7ef16efe6d8857181c1ab76e0be6
+  sha256: cb9908970bbf1c4c30e3faf650e0ee480ebdffa29ff307c9275f7198a8064061
 
 requirements:
   build:
